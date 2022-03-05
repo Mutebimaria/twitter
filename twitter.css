@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: skyblue;
+    background-image: url(twitter_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-container{
+position: fixed;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+.left-part{
+    position: absolute;
+    width: 400px;
+    left: 300px;
+    top: 480px;
+}
+
+.left-part p{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.right-part{
+    position: absolute;
+    background-color: white;
+    right: 0px;
+    width: 730px;
+    height: 100%;   
+}
+
+.right-part input{
+    width: 200px;
+    padding: 5px;
+    background-color: #eeeeee;
+    border: 0px 0px 2px 0px;
+    border-bottom-color: blue;
+    outline-style: none;
+}
+/*input classes start here-----------*/
+.text1{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+
+
+.password1{
+    position: absolute;
+    left: 280px;
+    top: 5px;
+}
+
+/*labels end here---------------------*/
+
+/*labels start here-----------*/
+
+.label1{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    font-size: 14px;
+}
+
+
+.label2{
+    position: absolute;
+    left: 280px;
+    font-size: 12px;
+}
+
+/*labels end here-----------*/
+
+
+.right-part label{
+    position: absolute;
+    top: 0;
+}
+.signup{
+    display: block;
+    margin-bottom: 15px;
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: white;
+    border-radius: 100px;
+    padding: 6px 16px;
+    text-align: center;
+    margin-top: 15px;
+    width:auto;
+}
+.passlog .forgot{
+margin-left: 300px;
+top: 20px;
+}
+
+.login{
+    display: block;
+    width: auto;
+    text-align: center;
+    border: 1px solid #1da1f2;
+    border-radius: 100px;
+    color: #1da1f2;
+}
+.login1{
+    text-align: center;
+    margin-left: 500px;
+    border-radius: 10px;
+    border: 1px solid #1da1f2;
+    color:#1da1f2 ;
+}
+.text1{
+    border-radius: 5px;
+}
+.password1{
+    border-radius: 5px;
+}
+.
